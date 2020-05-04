@@ -4,14 +4,14 @@
 [image2]: ./images/vgg16_model.png "VGG-16 Model Keras Layers"
 [image3]: ./images/vgg16_model_draw.png "VGG16 Model Figure"
 
-
+# Udacity's Data Scientist Nanodegree Capstone Project: Dog Breed Classifier
 ## Project Overview
 
-Welcome to the Convolutional Neural Networks (CNN) project in the AI Nanodegree! In this project, you will learn how to build a pipeline that can be used within a web or mobile app to process real-world, user-supplied images.  Given an image of a dog, your algorithm will identify an estimate of the canine’s breed.  If supplied an image of a human, the code will identify the resembling dog breed.  
+Udacity Capstone project in the Data Scientist Nanodegree! In this project, Explain how to build a pipeline that can be used within a web or mobile app to process real-world, user-supplied images.  Given an image of a dog, your algorithm will identify an estimate of the canine’s breed.  If supplied an image of a human, the code will identify the resembling dog breed.  
 
 ![Sample Output][image1]
 
-Along with exploring state-of-the-art CNN models for classification, you will make important design decisions about the user experience for your app.  Our goal is that by completing this lab, you understand the challenges involved in piecing together a series of models designed to perform various tasks in a data processing pipeline.  Each model has its strengths and weaknesses, and engineering a real-world application often involves solving many problems without a perfect answer.
+Along with exploring state-of-the-art CNN models for classification Each model has its strengths and weaknesses, and engineering a real-world application often involves solving many problems without a perfect answer.
 
 * [Step 0](#step0): Import Datasets
 * [Step 1](#step1): Detect Humans
@@ -84,8 +84,8 @@ cd dog-project
 ```
 jupyter notebook dog_app.ipynb
 ```
-# Conclusion
+## Conclusion
   
-  Detailed Discussion and Result of the project are in the article in medium [Dog Breed classifier]()
+  Detailed Discussion and Result of the project are in the article in medium [Dog Breed classifier](https://medium.com/@puruprajapati8/dog-breed-classifier-using-transfer-learning-in-cnn-d09606432ffe?sk=122b66678ccd5f13e027a0eb1e398529)
 
 
