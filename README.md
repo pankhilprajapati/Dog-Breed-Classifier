@@ -33,11 +33,11 @@ cd dog-project
 ```
 
 
-2. Download the [dog dataset](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dogImages.zip)
+2. Download the [dog dataset]()
 
-3. Download the [human dataset](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/lfw.zip).
+3. Download the [human dataset]().
 
-4. Donwload the [VGG-16 bottleneck features](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogVGG16Data.npz)
+4. Donwload the [VGG-16 bottleneck features]()
 
 5. (Optional) **If you are running the project on your local machine (and not using AWS)**, create (and activate) a new environment.
 
