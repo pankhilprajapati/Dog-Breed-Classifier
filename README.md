@@ -39,48 +39,32 @@ cd dog-project
 
 4. Donwload the [VGG-16 bottleneck features]()
 
-5. (Optional) **If you are running the project on your local machine (and not using AWS)**, create (and activate) a new environment.
+5. Libraries
+   ```
+   Keras
+   OpenCV
+   Matplotlib
+   Numpy
+   Tensorflow
+   tqdm
+   
+   ```
+6. File descriptions
+   ```
+   dog_app.ipynb: Jupyter notebook containing the main algorithm, findings and results.
+   dog_app.html: A copy of dog_app.ipynb in html format.
+   Haarcascades folder: contain the opencv haarcascade XML file for face detection.
+   images: few images for the testing prediction algorithm.
+   
+   
+   ```
+7. Findings
+    
+   - The model achieved a test accuracy of 83.4928%.
+   - Data is not augmented some of the breeds have similar colors and shapes but differ in size, so some of the pic where unclassified
+   - The model could use some improvements on its ability to classify pictures with data augmentation and using the other trained model 
 
-	- __Linux__ (to install with __GPU support__, change `requirements/dog-linux.yml` to `requirements/dog-linux-gpu.yml`): 
-	```
-	conda env create -f requirements/dog-linux.yml
-	source activate dog-project
-	```  
-	- __Mac__ (to install with __GPU support__, change `requirements/dog-mac.yml` to `requirements/dog-mac-gpu.yml`): 
-	```
-	conda env create -f requirements/dog-mac.yml
-	source activate dog-project
-	```  
-	**NOTE:** Some Mac users may need to install a different version of OpenCV
-	```
-	conda install --channel https://conda.anaconda.org/menpo opencv3
-	```
-	- __Windows__ (to install with __GPU support__, change `requirements/dog-windows.yml` to `requirements/dog-windows-gpu.yml`):  
-	```
-	conda env create -f requirements/dog-windows.yml
-	activate dog-project
-	```
-
-6. (Optional) **If you are running the project on your local machine (and not using AWS)** and Step 6 throws errors, try this __alternative__ step to create your environment.
-
-	- __Linux__ or __Mac__ (to install with __GPU support__, change `requirements/requirements.txt` to `requirements/requirements-gpu.txt`): 
-	```
-	conda create --name dog-project python=3.5
-	source activate dog-project
-	pip install -r requirements/requirements.txt
-	```
-	**NOTE:** Some Mac users may need to install a different version of OpenCV
-	```
-	conda install --channel https://conda.anaconda.org/menpo opencv3
-	```
-	- __Windows__ (to install with __GPU support__, change `requirements/requirements.txt` to `requirements/requirements-gpu.txt`):  
-	```
-	conda create --name dog-project python=3.5
-	activate dog-project
-	pip install -r requirements/requirements.txt
-	```
-
-7. Open the notebook.
+8. Open the notebook.
 ```
 jupyter notebook dog_app.ipynb
 ```
